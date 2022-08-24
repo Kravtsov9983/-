@@ -184,3 +184,24 @@ animation-delay: 1.5s ;
 .footer-link:hover .svg {
     fill: #000000;
 }
+
+.back-to-top {
+    display: flex;
+    background: #FF6B08;
+    border-radius: 50%;
+    position: fixed;
+    bottom: -50px;
+    padding: 10px 12px;
+    right: 50px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.back-to-top svg {
+    fill: #ffffff;
+}
+
+.back-to-top.active {
+    bottom: 50px;
+    transition: 0.3s all;
+}
