@@ -115,11 +115,14 @@ animation-delay: 1.5s ;
     height: 30px;
     background-color: transparent;
     border-radius: 50%;
-    border: 1px solid rgba(141, 26, 26, 0.1);
+    border: 3px solid rgba(255, 136, 0, 0.1);
     box-sizing: border-box;
     cursor: pointer;
 }
 
+.close-icon{
+    fill: black;
+}
 
 
 .modal-close-btn:focus .close-icon,
